@@ -68,8 +68,6 @@
 			children = (
 				01232ADE25A9C7D000F0BB42 /* Tropogo */,
 				01232ADD25A9C7D000F0BB42 /* Products */,
-				01D3C03825A9CAEB009684C8 /* TropogoDev-Info.plist */,
-				01D3C04A25A9CB7C009684C8 /* TropogoStaging-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,14 +84,32 @@
 		01232ADE25A9C7D000F0BB42 /* Tropogo */ = {
 			isa = PBXGroup;
 			children = (
-				01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */,
+				01D3C05725A9DC98009684C8 /* AppDelegateModel */,
 				01232AE325A9C7D000F0BB42 /* ViewController.swift */,
 				01232AE525A9C7D000F0BB42 /* Main.storyboard */,
 				01232AE825A9C7D300F0BB42 /* Assets.xcassets */,
 				01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */,
-				01232AED25A9C7D300F0BB42 /* Info.plist */,
 			);
 			path = Tropogo;
+			sourceTree = "<group>";
+		};
+		01D3C05725A9DC98009684C8 /* AppDelegateModel */ = {
+			isa = PBXGroup;
+			children = (
+				01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */,
+				01D3C05825A9DCB5009684C8 /* infoPlist */,
+			);
+			path = AppDelegateModel;
+			sourceTree = "<group>";
+		};
+		01D3C05825A9DCB5009684C8 /* infoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				01232AED25A9C7D300F0BB42 /* Info.plist */,
+				01D3C03825A9CAEB009684C8 /* TropogoDev-Info.plist */,
+				01D3C04A25A9CB7C009684C8 /* TropogoStaging-Info.plist */,
+			);
+			path = infoPlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,7 +406,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
-				INFOPLIST_FILE = Tropogo/Info.plist;
+				INFOPLIST_FILE = Tropogo/AppDelegateModel/infoPlist/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,7 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
-				INFOPLIST_FILE = Tropogo/Info.plist;
+				INFOPLIST_FILE = Tropogo/AppDelegateModel/infoPlist/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
