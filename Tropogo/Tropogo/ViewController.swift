@@ -13,15 +13,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         #if Prod
-        print("Prod")
-        
+        #if DEBUG
+        print("Prod Debug")
+        #else
+        print("Prod Release")
+        #endif
         #elseif Dev
-        print("Dev")
-        
+        #if DEBUG
+        print("Dev Debug")
+        #else
+        print("Dev Release")
+        #endif
         #elseif Stage
-
-        print("Stage")
-
+        #if DEBUG
+        print("Stage Debug")
+        #else
+        print("Stage Release")
+        #endif
         #endif
         
         
