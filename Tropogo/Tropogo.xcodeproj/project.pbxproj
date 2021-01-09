@@ -12,6 +12,7 @@
 		01232AE725A9C7D000F0BB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE525A9C7D000F0BB42 /* Main.storyboard */; };
 		01232AE925A9C7D300F0BB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE825A9C7D300F0BB42 /* Assets.xcassets */; };
 		01232AEC25A9C7D300F0BB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */; };
+		01A4C8EDDDB279D48CA04AB8 /* Pods_TropogoStag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F08E3CE2344F3766404966 /* Pods_TropogoStag.framework */; };
 		01D3C02D25A9CAEB009684C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232AE325A9C7D000F0BB42 /* ViewController.swift */; };
 		01D3C02E25A9CAEB009684C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */; };
 		01D3C03125A9CAEB009684C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */; };
@@ -28,6 +29,17 @@
 		01D3C06425AA20B2009684C8 /* TropogoDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01D3C06025AA20B2009684C8 /* TropogoDev-Info.plist */; };
 		01D3C06525AA20B2009684C8 /* TropogoDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01D3C06025AA20B2009684C8 /* TropogoDev-Info.plist */; };
 		01D3C06625AA20B2009684C8 /* TropogoDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01D3C06025AA20B2009684C8 /* TropogoDev-Info.plist */; };
+		01D3C07725AA2224009684C8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07425AA2224009684C8 /* Reachability.swift */; };
+		01D3C07825AA2224009684C8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07425AA2224009684C8 /* Reachability.swift */; };
+		01D3C07925AA2224009684C8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07425AA2224009684C8 /* Reachability.swift */; };
+		01D3C07A25AA2224009684C8 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07525AA2224009684C8 /* UtilityClass.swift */; };
+		01D3C07B25AA2224009684C8 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07525AA2224009684C8 /* UtilityClass.swift */; };
+		01D3C07C25AA2224009684C8 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07525AA2224009684C8 /* UtilityClass.swift */; };
+		01D3C07D25AA2224009684C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07625AA2224009684C8 /* NetworkClient.swift */; };
+		01D3C07E25AA2224009684C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07625AA2224009684C8 /* NetworkClient.swift */; };
+		01D3C07F25AA2224009684C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07625AA2224009684C8 /* NetworkClient.swift */; };
+		21260C14D579D6786FD56C9C /* Pods_Tropogo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEB401F8CCB1B20AB633AEA /* Pods_Tropogo.framework */; };
+		DFE81C2B8CAC2F722D4DDE32 /* Pods_TropogoDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7100FD13AD24A4CB2EAA39C2 /* Pods_TropogoDev.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +54,18 @@
 		01D3C04925A9CB7C009684C8 /* TropogoStag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TropogoStag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D3C05F25AA20B2009684C8 /* TropogoStaging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TropogoStaging-Info.plist"; sourceTree = "<group>"; };
 		01D3C06025AA20B2009684C8 /* TropogoDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TropogoDev-Info.plist"; sourceTree = "<group>"; };
+		01D3C07425AA2224009684C8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		01D3C07525AA2224009684C8 /* UtilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		01D3C07625AA2224009684C8 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		09E221BF6B74908DB59A3406 /* Pods-Tropogo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tropogo.debug.xcconfig"; path = "Target Support Files/Pods-Tropogo/Pods-Tropogo.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA343D7CA5A4ACC1E443998 /* Pods-TropogoStag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TropogoStag.release.xcconfig"; path = "Target Support Files/Pods-TropogoStag/Pods-TropogoStag.release.xcconfig"; sourceTree = "<group>"; };
+		7100FD13AD24A4CB2EAA39C2 /* Pods_TropogoDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TropogoDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F08E3CE2344F3766404966 /* Pods_TropogoStag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TropogoStag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEB401F8CCB1B20AB633AEA /* Pods_Tropogo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tropogo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEC6CDE6F2F177C2A4B3D92 /* Pods-Tropogo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tropogo.release.xcconfig"; path = "Target Support Files/Pods-Tropogo/Pods-Tropogo.release.xcconfig"; sourceTree = "<group>"; };
+		D5280A0409961F5D6DD0E902 /* Pods-TropogoStag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TropogoStag.debug.xcconfig"; path = "Target Support Files/Pods-TropogoStag/Pods-TropogoStag.debug.xcconfig"; sourceTree = "<group>"; };
+		E39F4F5EFA084BA5F3B538A3 /* Pods-TropogoDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TropogoDev.release.xcconfig"; path = "Target Support Files/Pods-TropogoDev/Pods-TropogoDev.release.xcconfig"; sourceTree = "<group>"; };
+		EE3765BA75B5276F98D3650C /* Pods-TropogoDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TropogoDev.debug.xcconfig"; path = "Target Support Files/Pods-TropogoDev/Pods-TropogoDev.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21260C14D579D6786FD56C9C /* Pods_Tropogo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE81C2B8CAC2F722D4DDE32 /* Pods_TropogoDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A4C8EDDDB279D48CA04AB8 /* Pods_TropogoStag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,8 @@
 			children = (
 				01232ADE25A9C7D000F0BB42 /* Tropogo */,
 				01232ADD25A9C7D000F0BB42 /* Products */,
+				646452513AF0E14EE6B3DECE /* Pods */,
+				C3E425701BA48E6E93A389AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +119,7 @@
 		01232ADE25A9C7D000F0BB42 /* Tropogo */ = {
 			isa = PBXGroup;
 			children = (
+				01D3C07325AA21EA009684C8 /* Supporting */,
 				01D3C05725A9DC98009684C8 /* AppDelegateModel */,
 				01232AE325A9C7D000F0BB42 /* ViewController.swift */,
 				01232AE525A9C7D000F0BB42 /* Main.storyboard */,
@@ -118,6 +148,48 @@
 			path = infoPlist;
 			sourceTree = "<group>";
 		};
+		01D3C06D25AA219B009684C8 /* NeetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				01D3C07625AA2224009684C8 /* NetworkClient.swift */,
+				01D3C07425AA2224009684C8 /* Reachability.swift */,
+				01D3C07525AA2224009684C8 /* UtilityClass.swift */,
+			);
+			path = NeetworkClient;
+			sourceTree = "<group>";
+		};
+		01D3C07325AA21EA009684C8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				01D3C06D25AA219B009684C8 /* NeetworkClient */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		646452513AF0E14EE6B3DECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09E221BF6B74908DB59A3406 /* Pods-Tropogo.debug.xcconfig */,
+				ABEC6CDE6F2F177C2A4B3D92 /* Pods-Tropogo.release.xcconfig */,
+				EE3765BA75B5276F98D3650C /* Pods-TropogoDev.debug.xcconfig */,
+				E39F4F5EFA084BA5F3B538A3 /* Pods-TropogoDev.release.xcconfig */,
+				D5280A0409961F5D6DD0E902 /* Pods-TropogoStag.debug.xcconfig */,
+				6BA343D7CA5A4ACC1E443998 /* Pods-TropogoStag.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3E425701BA48E6E93A389AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CEB401F8CCB1B20AB633AEA /* Pods_Tropogo.framework */,
+				7100FD13AD24A4CB2EAA39C2 /* Pods_TropogoDev.framework */,
+				82F08E3CE2344F3766404966 /* Pods_TropogoStag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01232AF025A9C7D300F0BB42 /* Build configuration list for PBXNativeTarget "Tropogo" */;
 			buildPhases = (
+				4701DDFBED4CF4DFBCAF6142 /* [CP] Check Pods Manifest.lock */,
 				01232AD825A9C7D000F0BB42 /* Sources */,
 				01232AD925A9C7D000F0BB42 /* Frameworks */,
 				01232ADA25A9C7D000F0BB42 /* Resources */,
+				B3D38881121471D9F9F3A7A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01D3C03425A9CAEB009684C8 /* Build configuration list for PBXNativeTarget "TropogoDev" */;
 			buildPhases = (
+				2B17F3FB5D79803B85401EC2 /* [CP] Check Pods Manifest.lock */,
 				01D3C02C25A9CAEB009684C8 /* Sources */,
 				01D3C02F25A9CAEB009684C8 /* Frameworks */,
 				01D3C03025A9CAEB009684C8 /* Resources */,
+				7F7E8726CB562AB59E39C3AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01D3C04625A9CB7C009684C8 /* Build configuration list for PBXNativeTarget "TropogoStag" */;
 			buildPhases = (
+				F0ED10FBB248118BE00EE172 /* [CP] Check Pods Manifest.lock */,
 				01D3C03E25A9CB7C009684C8 /* Sources */,
 				01D3C04125A9CB7C009684C8 /* Frameworks */,
 				01D3C04225A9CB7C009684C8 /* Resources */,
+				D242D3109317CF1540B1633B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,13 +323,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B17F3FB5D79803B85401EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TropogoDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4701DDFBED4CF4DFBCAF6142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tropogo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7E8726CB562AB59E39C3AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TropogoDev/Pods-TropogoDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TropogoDev/Pods-TropogoDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TropogoDev/Pods-TropogoDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D38881121471D9F9F3A7A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tropogo/Pods-Tropogo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tropogo/Pods-Tropogo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tropogo/Pods-Tropogo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D242D3109317CF1540B1633B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TropogoStag/Pods-TropogoStag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TropogoStag/Pods-TropogoStag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TropogoStag/Pods-TropogoStag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0ED10FBB248118BE00EE172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TropogoStag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01232AD825A9C7D000F0BB42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01232AE425A9C7D000F0BB42 /* ViewController.swift in Sources */,
+				01D3C07D25AA2224009684C8 /* NetworkClient.swift in Sources */,
 				01232AE025A9C7D000F0BB42 /* AppDelegate.swift in Sources */,
+				01D3C07725AA2224009684C8 /* Reachability.swift in Sources */,
+				01D3C07A25AA2224009684C8 /* UtilityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +461,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01D3C02D25A9CAEB009684C8 /* ViewController.swift in Sources */,
+				01D3C07E25AA2224009684C8 /* NetworkClient.swift in Sources */,
 				01D3C02E25A9CAEB009684C8 /* AppDelegate.swift in Sources */,
+				01D3C07825AA2224009684C8 /* Reachability.swift in Sources */,
+				01D3C07B25AA2224009684C8 /* UtilityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +473,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01D3C03F25A9CB7C009684C8 /* ViewController.swift in Sources */,
+				01D3C07F25AA2224009684C8 /* NetworkClient.swift in Sources */,
 				01D3C04025A9CB7C009684C8 /* AppDelegate.swift in Sources */,
+				01D3C07925AA2224009684C8 /* Reachability.swift in Sources */,
+				01D3C07C25AA2224009684C8 /* UtilityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +620,7 @@
 		};
 		01232AF125A9C7D300F0BB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E221BF6B74908DB59A3406 /* Pods-Tropogo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +642,7 @@
 		};
 		01232AF225A9C7D300F0BB42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEC6CDE6F2F177C2A4B3D92 /* Pods-Tropogo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +664,7 @@
 		};
 		01D3C03525A9CAEB009684C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3765BA75B5276F98D3650C /* Pods-TropogoDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +686,7 @@
 		};
 		01D3C03625A9CAEB009684C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39F4F5EFA084BA5F3B538A3 /* Pods-TropogoDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -497,6 +708,7 @@
 		};
 		01D3C04725A9CB7C009684C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5280A0409961F5D6DD0E902 /* Pods-TropogoStag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -518,6 +730,7 @@
 		};
 		01D3C04825A9CB7C009684C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA343D7CA5A4ACC1E443998 /* Pods-TropogoStag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

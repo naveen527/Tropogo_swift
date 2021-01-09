@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+def my_pods
+  
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'SkeletonView'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SKActivityIndicatorView' , :git => 'https://github.com/SachK13/SKActivityIndicatorView.git', :commit => 'bb0a954'
+  pod 'ReachabilitySwift'
+  pod 'IQKeyboardManagerSwift'
+  pod 'MaterialComponents'
+end
+
+
+
+
+
+target 'Tropogo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Tropogo
+   my_pods
+
+end
+
+target 'TropogoDev' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TropogoDev
+   my_pods
+
+end
+
+target 'TropogoStag' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TropogoStag
+   my_pods
+
+end
