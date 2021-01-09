@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01232AE025A9C7D000F0BB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */; };
-		01232AE225A9C7D000F0BB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232AE125A9C7D000F0BB42 /* SceneDelegate.swift */; };
 		01232AE425A9C7D000F0BB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232AE325A9C7D000F0BB42 /* ViewController.swift */; };
 		01232AE725A9C7D000F0BB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE525A9C7D000F0BB42 /* Main.storyboard */; };
 		01232AE925A9C7D300F0BB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE825A9C7D300F0BB42 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		01232ADC25A9C7D000F0BB42 /* Tropogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tropogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01232AE125A9C7D000F0BB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01232AE325A9C7D000F0BB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01232AE625A9C7D000F0BB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01232AE825A9C7D300F0BB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */,
-				01232AE125A9C7D000F0BB42 /* SceneDelegate.swift */,
 				01232AE325A9C7D000F0BB42 /* ViewController.swift */,
 				01232AE525A9C7D000F0BB42 /* Main.storyboard */,
 				01232AE825A9C7D300F0BB42 /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			files = (
 				01232AE425A9C7D000F0BB42 /* ViewController.swift in Sources */,
 				01232AE025A9C7D000F0BB42 /* AppDelegate.swift in Sources */,
-				01232AE225A9C7D000F0BB42 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
 				INFOPLIST_FILE = Tropogo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
 				INFOPLIST_FILE = Tropogo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
