@@ -12,6 +12,16 @@
 		01232AE725A9C7D000F0BB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE525A9C7D000F0BB42 /* Main.storyboard */; };
 		01232AE925A9C7D300F0BB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE825A9C7D300F0BB42 /* Assets.xcassets */; };
 		01232AEC25A9C7D300F0BB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */; };
+		01D3C02D25A9CAEB009684C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232AE325A9C7D000F0BB42 /* ViewController.swift */; };
+		01D3C02E25A9CAEB009684C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */; };
+		01D3C03125A9CAEB009684C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */; };
+		01D3C03225A9CAEB009684C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE825A9C7D300F0BB42 /* Assets.xcassets */; };
+		01D3C03325A9CAEB009684C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE525A9C7D000F0BB42 /* Main.storyboard */; };
+		01D3C03F25A9CB7C009684C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232AE325A9C7D000F0BB42 /* ViewController.swift */; };
+		01D3C04025A9CB7C009684C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */; };
+		01D3C04325A9CB7C009684C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */; };
+		01D3C04425A9CB7C009684C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE825A9C7D300F0BB42 /* Assets.xcassets */; };
+		01D3C04525A9CB7C009684C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE525A9C7D000F0BB42 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +32,28 @@
 		01232AE825A9C7D300F0BB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01232AEB25A9C7D300F0BB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01232AED25A9C7D300F0BB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D3C03725A9CAEB009684C8 /* TropogoDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TropogoDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D3C03825A9CAEB009684C8 /* TropogoDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TropogoDev-Info.plist"; path = "/Users/naveen/Documents/Tropogo_swift/Tropogo/TropogoDev-Info.plist"; sourceTree = "<absolute>"; };
+		01D3C04925A9CB7C009684C8 /* TropogoStag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TropogoStag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D3C04A25A9CB7C009684C8 /* TropogoStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TropogoStaging-Info.plist"; path = "/Users/naveen/Documents/Tropogo_swift/Tropogo/TropogoStaging-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		01232AD925A9C7D000F0BB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D3C02F25A9CAEB009684C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D3C04125A9CB7C009684C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +68,8 @@
 			children = (
 				01232ADE25A9C7D000F0BB42 /* Tropogo */,
 				01232ADD25A9C7D000F0BB42 /* Products */,
+				01D3C03825A9CAEB009684C8 /* TropogoDev-Info.plist */,
+				01D3C04A25A9CB7C009684C8 /* TropogoStaging-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				01232ADC25A9C7D000F0BB42 /* Tropogo.app */,
+				01D3C03725A9CAEB009684C8 /* TropogoDev.app */,
+				01D3C04925A9CB7C009684C8 /* TropogoStag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +116,40 @@
 			productReference = 01232ADC25A9C7D000F0BB42 /* Tropogo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		01D3C02B25A9CAEB009684C8 /* TropogoDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D3C03425A9CAEB009684C8 /* Build configuration list for PBXNativeTarget "TropogoDev" */;
+			buildPhases = (
+				01D3C02C25A9CAEB009684C8 /* Sources */,
+				01D3C02F25A9CAEB009684C8 /* Frameworks */,
+				01D3C03025A9CAEB009684C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TropogoDev;
+			productName = Tropogo;
+			productReference = 01D3C03725A9CAEB009684C8 /* TropogoDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01D3C03D25A9CB7C009684C8 /* TropogoStag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D3C04625A9CB7C009684C8 /* Build configuration list for PBXNativeTarget "TropogoStag" */;
+			buildPhases = (
+				01D3C03E25A9CB7C009684C8 /* Sources */,
+				01D3C04125A9CB7C009684C8 /* Frameworks */,
+				01D3C04225A9CB7C009684C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TropogoStag;
+			productName = Tropogo;
+			productReference = 01D3C04925A9CB7C009684C8 /* TropogoStag.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -112,6 +178,8 @@
 			projectRoot = "";
 			targets = (
 				01232ADB25A9C7D000F0BB42 /* Tropogo */,
+				01D3C02B25A9CAEB009684C8 /* TropogoDev */,
+				01D3C03D25A9CB7C009684C8 /* TropogoStag */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +195,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01D3C03025A9CAEB009684C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D3C03125A9CAEB009684C8 /* LaunchScreen.storyboard in Resources */,
+				01D3C03225A9CAEB009684C8 /* Assets.xcassets in Resources */,
+				01D3C03325A9CAEB009684C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D3C04225A9CB7C009684C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D3C04325A9CB7C009684C8 /* LaunchScreen.storyboard in Resources */,
+				01D3C04425A9CB7C009684C8 /* Assets.xcassets in Resources */,
+				01D3C04525A9CB7C009684C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,6 +224,24 @@
 			files = (
 				01232AE425A9C7D000F0BB42 /* ViewController.swift in Sources */,
 				01232AE025A9C7D000F0BB42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D3C02C25A9CAEB009684C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D3C02D25A9CAEB009684C8 /* ViewController.swift in Sources */,
+				01D3C02E25A9CAEB009684C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D3C03E25A9CB7C009684C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D3C03F25A9CB7C009684C8 /* ViewController.swift in Sources */,
+				01D3C04025A9CB7C009684C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D Prod";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Forming.Tropogo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -310,7 +417,92 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D Prod";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Forming.Tropogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01D3C03525A9CAEB009684C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
+				INFOPLIST_FILE = "TropogoDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Forming.TropogoDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D3C03625A9CAEB009684C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
+				INFOPLIST_FILE = "TropogoDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Forming.TropogoDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01D3C04725A9CB7C009684C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
+				INFOPLIST_FILE = "TropogoStaging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D Stage";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Forming.TropogoStag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D3C04825A9CB7C009684C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZM7RM34Z9;
+				INFOPLIST_FILE = "TropogoStaging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D Stage";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Forming.TropogoStag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +526,24 @@
 			buildConfigurations = (
 				01232AF125A9C7D300F0BB42 /* Debug */,
 				01232AF225A9C7D300F0BB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D3C03425A9CAEB009684C8 /* Build configuration list for PBXNativeTarget "TropogoDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D3C03525A9CAEB009684C8 /* Debug */,
+				01D3C03625A9CAEB009684C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D3C04625A9CB7C009684C8 /* Build configuration list for PBXNativeTarget "TropogoStag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D3C04725A9CB7C009684C8 /* Debug */,
+				01D3C04825A9CB7C009684C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
