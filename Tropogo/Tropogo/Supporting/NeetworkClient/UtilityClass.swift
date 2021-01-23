@@ -32,6 +32,11 @@ extension UtilityClass {
         }
         return nil
     }
+    
+    
+ 
+    
+    
 }
 
 extension UIApplication {

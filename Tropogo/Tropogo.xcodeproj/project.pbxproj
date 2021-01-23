@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,24 @@
 		01232AE725A9C7D000F0BB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE525A9C7D000F0BB42 /* Main.storyboard */; };
 		01232AE925A9C7D300F0BB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01232AE825A9C7D300F0BB42 /* Assets.xcassets */; };
 		01232AEC25A9C7D300F0BB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */; };
+		0161B6EC25B2AFD30087882B /* BaseUrlConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161B6EB25B2AFD30087882B /* BaseUrlConfig.swift */; };
+		0161B6ED25B2AFD30087882B /* BaseUrlConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161B6EB25B2AFD30087882B /* BaseUrlConfig.swift */; };
+		0161B6EE25B2AFD30087882B /* BaseUrlConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161B6EB25B2AFD30087882B /* BaseUrlConfig.swift */; };
+		0161B6FF25B2D14A0087882B /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161B6FE25B2D14A0087882B /* OtpViewController.swift */; };
+		0161B70025B2D14A0087882B /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161B6FE25B2D14A0087882B /* OtpViewController.swift */; };
+		0161B70125B2D14A0087882B /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161B6FE25B2D14A0087882B /* OtpViewController.swift */; };
+		018E144C25AA32D0004C5391 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E144B25AA32D0004C5391 /* SignInViewController.swift */; };
+		018E144D25AA32D0004C5391 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E144B25AA32D0004C5391 /* SignInViewController.swift */; };
+		018E144E25AA32D0004C5391 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E144B25AA32D0004C5391 /* SignInViewController.swift */; };
+		018E145325AA32E2004C5391 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E145225AA32E2004C5391 /* SignInModel.swift */; };
+		018E145425AA32E2004C5391 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E145225AA32E2004C5391 /* SignInModel.swift */; };
+		018E145525AA32E2004C5391 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E145225AA32E2004C5391 /* SignInModel.swift */; };
+		018E145A25AA32F2004C5391 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E145925AA32F2004C5391 /* SignInViewModel.swift */; };
+		018E145B25AA32F2004C5391 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E145925AA32F2004C5391 /* SignInViewModel.swift */; };
+		018E145C25AA32F2004C5391 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E145925AA32F2004C5391 /* SignInViewModel.swift */; };
+		018E148B25AA3BD8004C5391 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E148A25AA3BD8004C5391 /* AES.swift */; };
+		018E148C25AA3BD8004C5391 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E148A25AA3BD8004C5391 /* AES.swift */; };
+		018E148D25AA3BD8004C5391 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E148A25AA3BD8004C5391 /* AES.swift */; };
 		01A4C8EDDDB279D48CA04AB8 /* Pods_TropogoStag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F08E3CE2344F3766404966 /* Pods_TropogoStag.framework */; };
 		01D3C02D25A9CAEB009684C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232AE325A9C7D000F0BB42 /* ViewController.swift */; };
 		01D3C02E25A9CAEB009684C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01232ADF25A9C7D000F0BB42 /* AppDelegate.swift */; };
@@ -38,6 +56,24 @@
 		01D3C07D25AA2224009684C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07625AA2224009684C8 /* NetworkClient.swift */; };
 		01D3C07E25AA2224009684C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07625AA2224009684C8 /* NetworkClient.swift */; };
 		01D3C07F25AA2224009684C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D3C07625AA2224009684C8 /* NetworkClient.swift */; };
+		01EC1D0C25B334B800881159 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D0B25B334B800881159 /* HomeViewController.swift */; };
+		01EC1D0D25B334B800881159 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D0B25B334B800881159 /* HomeViewController.swift */; };
+		01EC1D0E25B334B800881159 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D0B25B334B800881159 /* HomeViewController.swift */; };
+		01EC1D1325B334F000881159 /* HomePageVieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D1225B334F000881159 /* HomePageVieModel.swift */; };
+		01EC1D1425B334F000881159 /* HomePageVieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D1225B334F000881159 /* HomePageVieModel.swift */; };
+		01EC1D1525B334F000881159 /* HomePageVieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D1225B334F000881159 /* HomePageVieModel.swift */; };
+		01EC1D1A25B3350200881159 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D1925B3350200881159 /* HomePageModel.swift */; };
+		01EC1D1B25B3350200881159 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D1925B3350200881159 /* HomePageModel.swift */; };
+		01EC1D1C25B3350200881159 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D1925B3350200881159 /* HomePageModel.swift */; };
+		01EC1D2525B4ACB500881159 /* WeatherConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D2425B4ACB500881159 /* WeatherConditionViewController.swift */; };
+		01EC1D2625B4ACB500881159 /* WeatherConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D2425B4ACB500881159 /* WeatherConditionViewController.swift */; };
+		01EC1D2725B4ACB500881159 /* WeatherConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D2425B4ACB500881159 /* WeatherConditionViewController.swift */; };
+		01EC1D2C25B4AD4200881159 /* ForecastDailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D2B25B4AD4200881159 /* ForecastDailyModel.swift */; };
+		01EC1D2D25B4AD4200881159 /* ForecastDailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D2B25B4AD4200881159 /* ForecastDailyModel.swift */; };
+		01EC1D2E25B4AD4200881159 /* ForecastDailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D2B25B4AD4200881159 /* ForecastDailyModel.swift */; };
+		01EC1D3625B4B07900881159 /* ForecastDailyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D3525B4B07900881159 /* ForecastDailyViewModel.swift */; };
+		01EC1D3725B4B07900881159 /* ForecastDailyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D3525B4B07900881159 /* ForecastDailyViewModel.swift */; };
+		01EC1D3825B4B07900881159 /* ForecastDailyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC1D3525B4B07900881159 /* ForecastDailyViewModel.swift */; };
 		21260C14D579D6786FD56C9C /* Pods_Tropogo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEB401F8CCB1B20AB633AEA /* Pods_Tropogo.framework */; };
 		DFE81C2B8CAC2F722D4DDE32 /* Pods_TropogoDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7100FD13AD24A4CB2EAA39C2 /* Pods_TropogoDev.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +86,12 @@
 		01232AE825A9C7D300F0BB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01232AEB25A9C7D300F0BB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01232AED25A9C7D300F0BB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0161B6EB25B2AFD30087882B /* BaseUrlConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrlConfig.swift; sourceTree = "<group>"; };
+		0161B6FE25B2D14A0087882B /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		018E144B25AA32D0004C5391 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		018E145225AA32E2004C5391 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		018E145925AA32F2004C5391 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		018E148A25AA3BD8004C5391 /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 		01D3C03725A9CAEB009684C8 /* TropogoDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TropogoDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D3C04925A9CB7C009684C8 /* TropogoStag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TropogoStag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D3C05F25AA20B2009684C8 /* TropogoStaging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TropogoStaging-Info.plist"; sourceTree = "<group>"; };
@@ -57,6 +99,12 @@
 		01D3C07425AA2224009684C8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		01D3C07525AA2224009684C8 /* UtilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
 		01D3C07625AA2224009684C8 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		01EC1D0B25B334B800881159 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		01EC1D1225B334F000881159 /* HomePageVieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVieModel.swift; sourceTree = "<group>"; };
+		01EC1D1925B3350200881159 /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
+		01EC1D2425B4ACB500881159 /* WeatherConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherConditionViewController.swift; sourceTree = "<group>"; };
+		01EC1D2B25B4AD4200881159 /* ForecastDailyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDailyModel.swift; sourceTree = "<group>"; };
+		01EC1D3525B4B07900881159 /* ForecastDailyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDailyViewModel.swift; sourceTree = "<group>"; };
 		09E221BF6B74908DB59A3406 /* Pods-Tropogo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tropogo.debug.xcconfig"; path = "Target Support Files/Pods-Tropogo/Pods-Tropogo.debug.xcconfig"; sourceTree = "<group>"; };
 		6BA343D7CA5A4ACC1E443998 /* Pods-TropogoStag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TropogoStag.release.xcconfig"; path = "Target Support Files/Pods-TropogoStag/Pods-TropogoStag.release.xcconfig"; sourceTree = "<group>"; };
 		7100FD13AD24A4CB2EAA39C2 /* Pods_TropogoDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TropogoDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +167,9 @@
 		01232ADE25A9C7D000F0BB42 /* Tropogo */ = {
 			isa = PBXGroup;
 			children = (
+				01EC1D2325B4AC3C00881159 /* WeatherCondition */,
+				01EC1D0A25B3349500881159 /* HomeModule */,
+				018E144A25AA329D004C5391 /* SigningModule */,
 				01D3C07325AA21EA009684C8 /* Supporting */,
 				01D3C05725A9DC98009684C8 /* AppDelegateModel */,
 				01232AE325A9C7D000F0BB42 /* ViewController.swift */,
@@ -127,6 +178,49 @@
 				01232AEA25A9C7D300F0BB42 /* LaunchScreen.storyboard */,
 			);
 			path = Tropogo;
+			sourceTree = "<group>";
+		};
+		0161B6EA25B2AF9A0087882B /* BaseUrlConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0161B6EB25B2AFD30087882B /* BaseUrlConfig.swift */,
+			);
+			path = BaseUrlConfig;
+			sourceTree = "<group>";
+		};
+		0161B6F325B2D0D80087882B /* SignInModule */ = {
+			isa = PBXGroup;
+			children = (
+				018E144B25AA32D0004C5391 /* SignInViewController.swift */,
+				018E145225AA32E2004C5391 /* SignInModel.swift */,
+				018E145925AA32F2004C5391 /* SignInViewModel.swift */,
+			);
+			path = SignInModule;
+			sourceTree = "<group>";
+		};
+		0161B6F725B2D1030087882B /* OtpModule */ = {
+			isa = PBXGroup;
+			children = (
+				0161B6FE25B2D14A0087882B /* OtpViewController.swift */,
+			);
+			path = OtpModule;
+			sourceTree = "<group>";
+		};
+		018E144A25AA329D004C5391 /* SigningModule */ = {
+			isa = PBXGroup;
+			children = (
+				0161B6F325B2D0D80087882B /* SignInModule */,
+				0161B6F725B2D1030087882B /* OtpModule */,
+			);
+			path = SigningModule;
+			sourceTree = "<group>";
+		};
+		018E148925AA3B7E004C5391 /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				018E148A25AA3BD8004C5391 /* AES.swift */,
+			);
+			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
 		01D3C05725A9DC98009684C8 /* AppDelegateModel */ = {
@@ -161,9 +255,31 @@
 		01D3C07325AA21EA009684C8 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				0161B6EA25B2AF9A0087882B /* BaseUrlConfig */,
+				018E148925AA3B7E004C5391 /* CryptoSwift */,
 				01D3C06D25AA219B009684C8 /* NeetworkClient */,
 			);
 			path = Supporting;
+			sourceTree = "<group>";
+		};
+		01EC1D0A25B3349500881159 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				01EC1D0B25B334B800881159 /* HomeViewController.swift */,
+				01EC1D1225B334F000881159 /* HomePageVieModel.swift */,
+				01EC1D1925B3350200881159 /* HomePageModel.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		01EC1D2325B4AC3C00881159 /* WeatherCondition */ = {
+			isa = PBXGroup;
+			children = (
+				01EC1D2425B4ACB500881159 /* WeatherConditionViewController.swift */,
+				01EC1D2B25B4AD4200881159 /* ForecastDailyModel.swift */,
+				01EC1D3525B4B07900881159 /* ForecastDailyViewModel.swift */,
+			);
+			path = WeatherCondition;
 			sourceTree = "<group>";
 		};
 		646452513AF0E14EE6B3DECE /* Pods */ = {
@@ -176,7 +292,6 @@
 				D5280A0409961F5D6DD0E902 /* Pods-TropogoStag.debug.xcconfig */,
 				6BA343D7CA5A4ACC1E443998 /* Pods-TropogoStag.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -448,11 +563,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EC1D2525B4ACB500881159 /* WeatherConditionViewController.swift in Sources */,
 				01232AE425A9C7D000F0BB42 /* ViewController.swift in Sources */,
 				01D3C07D25AA2224009684C8 /* NetworkClient.swift in Sources */,
+				018E144C25AA32D0004C5391 /* SignInViewController.swift in Sources */,
+				018E145325AA32E2004C5391 /* SignInModel.swift in Sources */,
+				01EC1D2C25B4AD4200881159 /* ForecastDailyModel.swift in Sources */,
+				01EC1D3625B4B07900881159 /* ForecastDailyViewModel.swift in Sources */,
+				0161B6FF25B2D14A0087882B /* OtpViewController.swift in Sources */,
+				01EC1D1A25B3350200881159 /* HomePageModel.swift in Sources */,
+				0161B6EC25B2AFD30087882B /* BaseUrlConfig.swift in Sources */,
+				018E145A25AA32F2004C5391 /* SignInViewModel.swift in Sources */,
 				01232AE025A9C7D000F0BB42 /* AppDelegate.swift in Sources */,
 				01D3C07725AA2224009684C8 /* Reachability.swift in Sources */,
+				018E148B25AA3BD8004C5391 /* AES.swift in Sources */,
 				01D3C07A25AA2224009684C8 /* UtilityClass.swift in Sources */,
+				01EC1D0C25B334B800881159 /* HomeViewController.swift in Sources */,
+				01EC1D1325B334F000881159 /* HomePageVieModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,11 +587,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EC1D2625B4ACB500881159 /* WeatherConditionViewController.swift in Sources */,
 				01D3C02D25A9CAEB009684C8 /* ViewController.swift in Sources */,
 				01D3C07E25AA2224009684C8 /* NetworkClient.swift in Sources */,
+				018E144D25AA32D0004C5391 /* SignInViewController.swift in Sources */,
+				018E145425AA32E2004C5391 /* SignInModel.swift in Sources */,
+				01EC1D2D25B4AD4200881159 /* ForecastDailyModel.swift in Sources */,
+				01EC1D3725B4B07900881159 /* ForecastDailyViewModel.swift in Sources */,
+				0161B70025B2D14A0087882B /* OtpViewController.swift in Sources */,
+				01EC1D1B25B3350200881159 /* HomePageModel.swift in Sources */,
+				0161B6ED25B2AFD30087882B /* BaseUrlConfig.swift in Sources */,
+				018E145B25AA32F2004C5391 /* SignInViewModel.swift in Sources */,
 				01D3C02E25A9CAEB009684C8 /* AppDelegate.swift in Sources */,
 				01D3C07825AA2224009684C8 /* Reachability.swift in Sources */,
+				018E148C25AA3BD8004C5391 /* AES.swift in Sources */,
 				01D3C07B25AA2224009684C8 /* UtilityClass.swift in Sources */,
+				01EC1D0D25B334B800881159 /* HomeViewController.swift in Sources */,
+				01EC1D1425B334F000881159 /* HomePageVieModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,11 +611,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EC1D2725B4ACB500881159 /* WeatherConditionViewController.swift in Sources */,
 				01D3C03F25A9CB7C009684C8 /* ViewController.swift in Sources */,
 				01D3C07F25AA2224009684C8 /* NetworkClient.swift in Sources */,
+				018E144E25AA32D0004C5391 /* SignInViewController.swift in Sources */,
+				018E145525AA32E2004C5391 /* SignInModel.swift in Sources */,
+				01EC1D2E25B4AD4200881159 /* ForecastDailyModel.swift in Sources */,
+				01EC1D3825B4B07900881159 /* ForecastDailyViewModel.swift in Sources */,
+				0161B70125B2D14A0087882B /* OtpViewController.swift in Sources */,
+				01EC1D1C25B3350200881159 /* HomePageModel.swift in Sources */,
+				0161B6EE25B2AFD30087882B /* BaseUrlConfig.swift in Sources */,
+				018E145C25AA32F2004C5391 /* SignInViewModel.swift in Sources */,
 				01D3C04025A9CB7C009684C8 /* AppDelegate.swift in Sources */,
 				01D3C07925AA2224009684C8 /* Reachability.swift in Sources */,
+				018E148D25AA3BD8004C5391 /* AES.swift in Sources */,
 				01D3C07C25AA2224009684C8 /* UtilityClass.swift in Sources */,
+				01EC1D0E25B334B800881159 /* HomeViewController.swift in Sources */,
+				01EC1D1525B334F000881159 /* HomePageVieModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

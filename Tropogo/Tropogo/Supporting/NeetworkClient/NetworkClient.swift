@@ -23,12 +23,13 @@ enum MethodType: String {
     case POST = "POST"
     case GET = "GET"
     case MULTIPARTWITH_POST = "MULTIPARTWITH_POST"
+    case DELETE = "DELETE"
     
 }
 // MARK: - NetworkClientProtocol
 protocol NetworkClientProtocol {
     
-    func sendRequestGeneric<T: Encodable>(request: URLRequest,methodType: HTTPMethod,bodyParams:T, completion: @escaping (Data?, URLResponse?, Error?) -> ())
+    func sendRequestGeneric<T: Encodable>(request: URLRequest,methodType: MethodType,bodyParams:T, completion: @escaping (Data?, URLResponse?, Error?) -> ())
 }
 
 // MARK: - NetworkClient
@@ -36,7 +37,7 @@ class  NetworkClient: NetworkClientProtocol {
     
     static let sharedInstance = NetworkClient()
     
-    func sendRequestGeneric<T: Encodable>(request: URLRequest, methodType: HTTPMethod, bodyParams: T, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+    func sendRequestGeneric<T: Encodable>(request: URLRequest, methodType: MethodType, bodyParams: T, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
         
         
         if NetworkReachability.isConnectedToNetwork() == false {
@@ -50,21 +51,52 @@ class  NetworkClient: NetworkClientProtocol {
         }
         
         
-        let jsonData = try! JSONEncoder().encode(bodyParams)
-        let json = try! JSONSerialization.jsonObject(with: jsonData, options: .mutableLeaves)
         
-        Alamofire.request(url, method: methodType, parameters: (json as! Parameters), encoding: JSONEncoding.default, headers: ["Content-Type":"application/json","Username":"TWEGA","Password":"N0555899111@2020"])
-            .responseJSON { response in
-                if let httpStatus = response.response, httpStatus.statusCode == 200 {
-                    do{
+        if methodType.rawValue == "POST" || methodType.rawValue == "DELETE" {
+            
+            let jsonData = try? JSONEncoder().encode(bodyParams)
+            let json = try? JSONSerialization.jsonObject(with: jsonData!, options: .fragmentsAllowed)
+            
+            Alamofire.request(url, method: HTTPMethod(rawValue: methodType.rawValue)!, parameters: (json as? Parameters), encoding: JSONEncoding.default, headers: ["Accept":"application/json"])
+                .responseJSON { response in
+                    if let httpStatus = response.response, httpStatus.statusCode == 200 {
+                        do{
+                            // debugPrint("Success:\(String(describing: response.response))")
+                            completion(response.data,response.response,response.error)
+                            
+                        }
+                    }else{
+                        //debugPrint("fail:\(String(describing: response.response))")
+                        
                         completion(response.data,response.response,response.error)
                     }
+                }
+            
+        }else{
+            
+            Alamofire.request(url,method: .get,headers: ["Accept":"application/json"]).responseJSON{
+                response in
+                if let httpStatus = response.response, httpStatus.statusCode == 200 {
+                    do{
+                        // debugPrint("Success:\(String(describing: response.response))")
+                        completion(response.data,response.response,response.error)
+                        
+                    }
                 }else{
+                    //debugPrint("fail:\(String(describing: response.response))")
+                    
                     completion(response.data,response.response,response.error)
                 }
+            }
+            
         }
+        
     }
+    
+    
 }
+
+
 
 
 
