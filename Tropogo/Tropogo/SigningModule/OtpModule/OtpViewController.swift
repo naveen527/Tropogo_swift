@@ -80,6 +80,12 @@ class OtpViewController: UIViewController {
         
     }
     
+    @IBAction func act(_ sender: UIButton) {
+        
+        let vv = (storyboard?.instantiateViewController(withIdentifier: "UserCategoryViewController"))!
+        
+        self.navigationController?.pushViewController(vv, animated: true)
+    }
     
 }
 

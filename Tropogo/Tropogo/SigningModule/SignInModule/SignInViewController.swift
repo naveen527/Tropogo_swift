@@ -15,7 +15,10 @@ class SignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.ApiCall()
+        
+        self.navigationController?.navigationBar.isHidden = true
+        
+       // self.ApiCall()
         
     }
     
@@ -44,5 +47,17 @@ class SignInViewController: UIViewController {
         
     }
     
+    @IBAction func nextAct(_ sender: UIButton) {
+        
+        //let vc = (storyboard?.instantiateViewController(identifier: "OtpViewController"))! as OtpViewController
+        
+        let vv = (storyboard?.instantiateViewController(withIdentifier: "OtpViewController"))! 
+        
+        self.navigationController?.pushViewController(vv, animated: true)
+        
+        
+        
+        
+    }
     
 }
